@@ -1,0 +1,92 @@
+  body {
+    font-size: 18px;
+
+  }
+
+  .app-container,
+  main {
+    margin: 10px;
+
+  }
+
+  .app-container {
+    background-color: #a2a4ac;
+    box-shadow: 0 0 10px rgba(214, 9, 12, 0.065);
+    border-radius: 8px;
+    overflow-block: 10px;
+  }
+
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #999;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #445247;
+  }
+
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #72ad2a;
+
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  label {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  input,
+  textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+
+  form {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: #999;
+
+  }
+
+
+  @media (max-width: 600px) {
+
+    .app-container,
+    main {
+      margin: 10px;
+    }
+
+    form {
+      padding: 20px;
+    }
+  }
+  .container{
+    text-align: center;
+   
+  }
+  
