@@ -23,11 +23,11 @@ const QuoteGenerator = () => {
 
   return (
     <div>
-      <h1>Quote Generator:</h1>
+      <h2>Quote Generator:</h2>
       <blockquote>
         <p>{quote}</p>
       </blockquote>
-      <button onClick={handleNewQuote}>New Quote</button>
+      <button onClick={handleNewQuote}><i>New Quote</i></button>
     </div>
   );
 };
